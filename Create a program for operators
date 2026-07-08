@@ -1,0 +1,27 @@
+<?php
+$a = 20;
+$b = 10;
+
+echo "<h2>Arithmetic Operators</h2>";
+
+echo "Addition = " . ($a + $b) . "<br>";
+echo "Subtraction = " . ($a - $b) . "<br>";
+echo "Multiplication = " . ($a * $b) . "<br>";
+echo "Division = " . ($a / $b) . "<br>";
+echo "Modulus = " . ($a % $b) . "<br>";
+
+echo "<h2>Comparison Operators</h2>";
+
+echo ($a > $b) ? "a is greater than b<br>" : "b is greater<br>";
+
+echo "<h2>Logical Operators</h2>";
+
+$x = true;
+$y = false;
+
+echo "AND: ";
+var_dump($x && $y);
+
+echo "<br>OR: ";
+var_dump($x || $y);
+?>

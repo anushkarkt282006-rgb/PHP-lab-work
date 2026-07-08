@@ -2,10 +2,10 @@
 // Variable
 $name = "Anushka Verma";
 $semester = "Semester 2";
-$percentage = 82.5;
+$percentage = 92.5;
 
 // Constant
-define("COLLEGE", "ABC College");
+define("COLLEGE", "Marwadi College");
 
 echo "<h2>Previous Semester Result</h2>";
 echo "College: " . COLLEGE . "<br>";
