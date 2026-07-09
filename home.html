@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset=""UTF-8"">
-    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
-    <title>Home Page</title>
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
 <body>
     <form action="get_data.php" method="get">
-        <input type="text" name="username" placeholder="Enter your username">
-        <input type="password" name="surname" placeholder="Enter your password">
+        <input type="text" name="u_name" placeholder="Enter your username">
+        <input type="password" name="u_pass" placeholder="Enter your password">
+        <textarea name="u_text" placeholder="Description"></textarea>
+        <select name="u_city">
+            <option value="Rajkot">Rajkot</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+        </select>
         <input type="submit">
         <input type="reset" >
     </form>
